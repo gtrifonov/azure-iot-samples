@@ -1,0 +1,30 @@
+{
+  "name": "azure-iot-central-gateway-device-prop",
+  "version": "0.0.1",
+  "description": "Azure IoT Central - Updating device property to indicate that device is child device of gateway",
+  "author": "George Trifonov",
+  "license": "MIT",
+  "dependencies": {
+    "azure-iot-provisioning-device": "1.4.1",
+    "azure-iot-provisioning-device-amqp": "1.4.1",
+    "azure-iot-provisioning-device-http": "1.4.1",
+    "azure-iot-provisioning-device-mqtt": "1.4.1",
+    "azure-iot-security-tpm": "1.3.1",
+    "azure-iot-security-x509": "1.3.1",
+    "azure-iot-device-mqtt": "1.8.1",
+    "azure-iot-device-amqp": "1.8.1",
+    "azure-iot-device-http": "1.8.1",
+    "azure-iot-device": "1.8.1"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtrifonov/azure-iot-samples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gtrifonov/azure-iot-samples/issues"
+  },
+  "homepage": "https://github.com/gtrifonov/azure-iot-samples#readme"
+}
